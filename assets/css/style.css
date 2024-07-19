@@ -1,0 +1,19 @@
+header {
+    background-color: #3283a8;
+    position:fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#menu>li>a {
+    color: #e6e5e3;
+
+}
