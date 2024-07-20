@@ -35,69 +35,72 @@ header {
     width: 100%;
     margin-top: 0;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items:baseline;
-    /*z-index: 99;*/
+    z-index: 99;
     height:300px; 
 }
 
 
 #heading {
     background-color: rgba(230, 229, 227, .7);
+    color: #474747;
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     z-index: 99;
     width: 100%;
-
+    font-size: 70%;
+    padding: 5px;
+    /*push h1 down over image*/
+    margin-top: 5px;
 }
 
-#brendan {
-    flex: 80%;
+/*#brendan {
+    flex: 80%;*/
 }
 /* navbar styles */
-nav {
+/*nav {
     position:relative;
     width: 100px;
     left: 0;
     top: 0;
     padding: 0;
-    background-color: rgba(230, 229, 227, .7);
-
-   /* display: none;*/
-}
-/* navigation menu styles */
-#menu {
-    font-size: 100%;
-    color: #081c40;
-    list-style-type: none;
-}
-
-.active {
-    border-bottom: 1px solid #081c40;
-}
-
-
-
-/*nav toggle*/
-/* #nav-toggle:checked~nav{
-    display:block;
-}
-
-#nav-toggle {
-    display:none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-} */
-
-/* image style */
-/*#main-image {
-    height: 250px;
-    width: 100%;
-    background: url(../images/seaswell1.jpg) no-repeat center center/cover;
-    position: relative;
 }*/
+
+/*nav > div {
+    display:flex;
+}*/
+
+/*.menu {
+    display:inline;
+}*/
+
+/*.menu {
+    left:0;
+}
+.menu > a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #474747;
+    font-family: 'playfair display';
+
+}*/
+
+
+
+main {
+    margin-top: 300px;
+}
+#links {
+    width: 100%;
+}
+
+#links > a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #474747;
+    font-family: 'playfair display';
+}
 
 
 
