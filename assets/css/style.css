@@ -116,4 +116,18 @@ main {
     
 }
 
+/*Footer*/
+#socials {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #E4E3E3;
+}
 
+#socials i {
+    font-size: 100%;
+    padding: 5%;
+    color: #474747;
+}
