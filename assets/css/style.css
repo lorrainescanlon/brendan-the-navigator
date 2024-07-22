@@ -94,7 +94,7 @@ main {
     margin: 10px;
     padding: 2px;
     background-color: #E4E3E3;
-    border-radius: 2%;
+    /*border-radius: 2%;*/
     
 }
 
@@ -144,7 +144,17 @@ main {
     margin: 10px;
     padding: 2px;
     background-color: #E4E3E3;
-    border-radius: 2%;
+    /*border-radius: 5%;*/
+}
+
+#faroe-sheep {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#sheep-circle {
+    background-image: url(../images/faroe.jpg);
 }
 
 #volcano-image {
@@ -153,31 +163,10 @@ main {
     justify-content: center;
 }
 
-#circle-volcano {
+#volcano-circle {
     background-image: url(../images/volcano.jpg);
 }
 
-/*#circle-volcano {
-    background-image: url(../images/volcano.jpg);
-    height: 60vw;
-    width: 60vw;
-    background-position:center;
-    background-size: cover;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}*/
-
-#faroe-sheep {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-#circle-sheep{
-    background-image: url(../images/faroe.jpg);
-}
 
 #iceberg-image {
     display: flex;
@@ -185,8 +174,18 @@ main {
     justify-content: center;
 }
 
-#circle-iceberg {
+#iceberg-circle {
     background-image: url(../images/iceberg.jpg);
+}
+
+#columbus-image {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#columbus-circle {
+    background-image: url(../images/columbus.jpg);
 }
 
 .circle-image {
@@ -196,8 +195,8 @@ main {
     background-size: cover;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 /*Contact Page*/
