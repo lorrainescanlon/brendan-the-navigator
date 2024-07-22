@@ -35,16 +35,26 @@
                 <br>
                 <label for="query">Query</label>
                 <br>
-                <textarea name="query" rows="6" cols="25" class=".text-input" placeholder="Your Query Here"></textarea>
-                <br><br>
-                <p>Just for Fun!<br>In your Opinion Did Brendan Reach America</p>
-                <div id="vote" class="radio-buttons">
-                    <input type="radio" id="vote-yes" name="vote_yes" value="Likely" checked>
-                    <label for="vote-yes">Likely</label>
-                    <input type="radio" id="vote-no" name="vote_no" value="Unlikely">
-                    <label for="vote-no">Unlikely</label> 
+                <textarea name="query" rows="6" cols="25" class=".text-input" placeholder="Your Query Here" maxlength="250"></textarea>
+                <br>
+                <p>Just for Fun!<p>
+                <div id="vote">
+                    <p>Do you think Brendan reached America?</p>
+                    <div class="radio-buttons">
+                        <div>
+                            <input type="radio" id="vote-yes" name="vote_yes" value="Likely" checked>
+                            <label for="vote-yes">Likely</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="vote-no" name="vote_no" value="Unlikely">
+                            <label for="vote-no">Unlikely</label> 
+                        </div>                       
+                    </div>
                 </div>
-                <input type="submit" class="button" value="Submit">            
+                <div>
+                    <input type="submit" class="submit-button" value="Submit">
+                </div>
+                            
                                  
             </form>
 
