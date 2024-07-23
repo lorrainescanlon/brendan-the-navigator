@@ -15,31 +15,26 @@ In this section, you should go over the different parts of your project, and des
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 - __The landing page image__
   - The landing page includes a photograph with text overlay to allow the user to see exactly what this site is about. 
-  - This section introduces the user to Brendan the Navigator with an seascape image to set the scene.
+  - This section introduces the user to Brendan the Navigator with an image of his statue which stands at Fenit harbour in Kerry to set the scene.
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 - __History section__
   - The history section introduces the user to a brief history of Brendan. 
   - This should encourage the user to want to learn more about Brendan and his famous voyage.
 ![History Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-- __Meetup Times section__
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 - __The Footer__ 
   - The footer section includes links to the relevant social media sites for Brendan the Navigator. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 - __The Voyage__
 - __Voyage__
-  - The Voyage page will provide the user with a detailed story of Brendans 7 year voyage with links to external sites for further information. 
+  - The Voyage page will provide the user with a detailed story of Brendans 7 year voyage with images and links to external sites for further information. 
   - This section is valuable to the user as it details the main parts of the 7 year Voyage.
 ![Voyage](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 - __The Contact Page__
   - This page will allow the user to contact the page with any queries. The user will be asked to submit their full name and email address. 
-  - The user will also have the opportunity to provide feedback in the form of a vote button. They can give their opinion on wether Brendan reached America or not.
+  - The user will also have the opportunity to provide feedback in the form of a vote button. They can give their opinion on whether Brendan reached America or not.
 ![Contact](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-For some/all of your features, you may choose to reference the specific project files that implement them.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
 ### Features Left to Implement
 - As a future add on, a feature that would display the results on the vote button would be beneficial. shown as a graphic to illustrate what percentage of users believe Brendan reached America versus the percentage that believe he didn't.
 ## Testing 
