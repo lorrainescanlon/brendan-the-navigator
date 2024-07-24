@@ -30,7 +30,8 @@ header {
     width: 100%;
     margin-top: 0;
     display: flex;
-    height: 25px;
+    height: 30px;
+
 }
 nav {
     width: 100%;
@@ -98,7 +99,7 @@ main {
 /*Footer*/
 #socials {
     text-align: center;
-    padding: 20px 0;
+    padding: 12px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
