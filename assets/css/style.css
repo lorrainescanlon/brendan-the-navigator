@@ -31,7 +31,7 @@ header {
     margin-top: 0;
     display: flex;
     height: 30px;
-
+    box-shadow: 0 2px #325775;
 }
 nav {
     width: 100%;
@@ -56,7 +56,7 @@ nav {
 /*Main Styles*/
 main {
     /* Make main element push footer down */
-    margin-top: 25px;
+    margin-top: 32px;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ main {
     width: 100%;
     font-size: 100%;
     padding: 3px;
-    margin-top: 30%;
+    margin-top: 20%;
     text-align:center;
 }
 
@@ -97,6 +97,10 @@ main {
 }
 
 /*Footer*/
+footer {
+    box-shadow: 0 -2px #325775;
+}
+
 #socials {
     text-align: center;
     padding: 12px 0;
