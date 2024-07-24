@@ -34,7 +34,7 @@ header {
 }
 nav {
     width: 100%;
-    background-color: #E4E3E3;
+    background-color: #d5dade;  /* #E4E3E3;*/
     display: flex;
 }
 #links {
@@ -71,7 +71,7 @@ main {
 }
 
 #title {
-    background-color: rgba(230, 229, 227, .7);
+    background-color: rgba(213, 218, 222 , .7); /* rgba(230, 229, 227, .7);*/
     position: absolute;
     color: #474747;
     font-family: 'playfair display';
@@ -91,8 +91,8 @@ main {
 
 .history-box {
     margin: 10px;
-    padding: 2px;
-    background-color: #E4E3E3;    
+    padding: 12px;
+    background-color: #d5dade; /* #E4E3E3;    */
 }
 
 /*Footer*/
@@ -102,11 +102,11 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #E4E3E3;
+    background-color: #d5dade; /* #E4E3E3;*/
 }
 
 #socials i {
-    font-size: 100%;
+    font-size: 150%;
     padding: 5%;
     color: #474747;
 }
@@ -120,7 +120,7 @@ main {
 }
 
 #voyage-title {
-    background-color: rgba(230, 229, 227, .7);
+    background-color: rgba(213, 218, 222 , .7); /* rgba(230, 229, 227, .7);*/
     position: absolute;
     color: #474747;
     font-family: 'playfair display';
@@ -138,8 +138,8 @@ main {
 
 .voyage-box {
     margin: 10px;
-    padding: 2px;
-    background-color: #E4E3E3;
+    padding: 12px;
+    background-color: #d5dade; /* #E4E3E3;*/
 }
 
 #faroe-sheep {
@@ -206,7 +206,7 @@ main {
 /*Feedback Form*/
 #contact-form {
     color: #474747;
-    background:  rgba(230, 229, 227, .7);
+    background: rgba(213, 218, 222 , .7); /* rgba(230, 229, 227, .7);*/
     padding: 30px;
     margin-top: 30px;
     max-width: fit-content;
