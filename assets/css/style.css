@@ -30,7 +30,7 @@ header {
     width: 100%;
     margin-top: 0;
     display: flex;
-    height: 25px;
+    height: 28px;
     box-shadow: 0 2px #325775;
 }
 nav {
@@ -56,7 +56,7 @@ nav {
 /*Main Styles*/
 main {
     /* Make main element push footer down */
-    margin-top: 26px;
+    margin-top: 29px;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
