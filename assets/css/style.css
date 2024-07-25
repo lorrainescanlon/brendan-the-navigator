@@ -35,7 +35,7 @@ header {
 }
 nav {
     width: 100%;
-    background-color: #d7dae0;
+    background-color: #dee2e3; /* #d7dae0;*/
     display: flex;
 }
 #links {
@@ -56,7 +56,7 @@ nav {
 /*Main Styles*/
 main {
     /* Make main element push footer down */
-    margin-top: 25px;
+    margin-top: 26px;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@ main {
 .history-box {
     margin: 10px;
     padding: 10px;
-    background-color: #E4E3E3;
+    background-color: #dee2e3;
     /*border-radius: 2%;*/
     
 }
@@ -106,7 +106,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #E4E3E3;
+    background-color: #dee2e3;
     box-shadow: 0 -1px #325775;
 }
 
@@ -167,7 +167,7 @@ main {
 .voyage-box {
     margin: 10px;
     padding: 2px;
-    background-color: #E4E3E3;
+    background-color: #dee2e3;
     padding: 10px;
     /*border-radius: 5%;*/
 }
