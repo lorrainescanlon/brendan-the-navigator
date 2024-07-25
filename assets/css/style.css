@@ -86,18 +86,85 @@ main {
 
 
 /*Content styles*/
-#history {
+/*#history {
     /*margin-top: 320px;*/
-    width: 100%;
-}
+    /*width: 100%;
+}*/
 
 .history-box {
+    /*margin: 15px;*/
     margin: 10px;
-    padding: 10px;
+    /*padding: 10px;*/
+    padding: 20px 20px;
     background-color: #dee2e3;
+    position: relative;
     /*border-radius: 2%;*/
     
 }
+
+/*Timeline*/
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content:'';
+    position: absolute;
+    width: 5px;
+    background-color:#dee2e3;;
+    top: 0;
+    bottom: 0;
+    left: 31px;
+    margin-left: -3px;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 15px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+.left::after, .right::after {
+    left: 15px;
+}
+
+.right {
+    left: 0%;
+}
+
+/*circles*/
+.container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -8px;
+    background-color: #dee2e3;
+    border: 4px solid #474747;
+    top: 0px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/*Place container to the left*/
+.left {
+    left: 0;
+}
+
+/*Place container to the right*//*
+.right {
+    left: 50%;
+}
+
+/*Fix circles for containers on the right*/ /*
+.right::after {
+    left: -16px;
+} */
+
+
 
 /*Footer*/
 #socials {
@@ -107,7 +174,7 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: #dee2e3;
-    box-shadow: 0 -1px #325775;
+    box-shadow: 0 -2px #325775;
 }
 
 #socials i {
@@ -292,3 +359,54 @@ textarea {
 }
 
 
+/* Media query: tablets and larger (768px and up) */
+/*@media screen and (min-width: 768px) {
+/*
+
+    /*
+.timeline::after {
+    content:'';
+    position: absolute;
+    width: 6px;
+    background-color:#dee2e3;;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/*circles*/ /*
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #dee2e3;
+    border: 4px solid #474747;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/*Place container to the left*/ /*
+.left {
+    left: 0;
+} */
+
+/*Place container to the right*//*
+.right {
+    left: 50%;
+}
+
+/*Fix circles for containers on the right*//*
+.right::after {
+    left: -16px;
+} */
