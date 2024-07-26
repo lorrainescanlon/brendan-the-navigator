@@ -385,4 +385,14 @@ textarea {
         left: -16px;
     } 
 
+    #contact {
+        /*background-image: url("../images/statue.jpg");*/
+        background: url(../images/statuecroptop.jpg) no-repeat center top/cover;
+        /*background-size: cover;
+        background-position:top;*/
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+    }
+
+
 }
