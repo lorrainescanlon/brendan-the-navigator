@@ -107,6 +107,7 @@ main {
     margin: 0 auto;
 }
 
+/*Timeline ruler*/
 .timeline::after {
     content:'';
     position: absolute;
@@ -125,10 +126,12 @@ main {
     background-color: inherit;
     width: 100%;
 }
+/*Ensure all circles are at the same spot*/
 .left::after, .right::after {
     left: 15px;
 }
 
+/*Make all right containers go to the left*/
 .right {
     left: 0%;
 }
