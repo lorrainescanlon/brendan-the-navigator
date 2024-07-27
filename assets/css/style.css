@@ -30,6 +30,7 @@ header {
     display: flex;
     height: 28px;
     box-shadow: 0 2px #325775;
+    z-index: 2;
 }
 
 /*Nav bar styles*/
