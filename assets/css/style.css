@@ -19,7 +19,6 @@ body {
     flex-direction: column;
     background-color: #325775;
     font-family: 'lato', sans-serif;
-
 }
 
 /* header styles */
@@ -33,12 +32,14 @@ header {
     box-shadow: 0 2px #325775;
 }
 
+/*Nav bar styles*/
 nav {
     width: 100%;
     background-color: #dee2e3;
     display: flex;
 }
 
+/*Link styles*/
 #links {
     width: 100%;
     display: flex;
@@ -64,7 +65,7 @@ main {
     width: 100%;
 }
 
-
+/*Landing page image*/
 #cover-image {
     background: url(../images/statuecroptop.jpg) no-repeat center top
         /*center*/
@@ -74,6 +75,7 @@ main {
     width: 100%;
 }
 
+/*Brendan the Navigator Title*/
 #title {
     background-color: rgba(230, 229, 227, .7);
     position: absolute;
@@ -87,20 +89,19 @@ main {
     text-align: center;
 }
 
-
-/*Content styles*/
+/*History section*/
 #history {
-    /*margin-top: 320px;*/
     width: 100%;
+    padding: 10px;
 }
 
+/*History content*/
 .history-box {
     margin: 15px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     background-color: #dee2e3;
     position: relative;
-    /*border-radius: 2%;*/
-
+    border-radius: 2%;
 }
 
 /*Timeline*/
@@ -122,6 +123,7 @@ main {
     margin-left: -3px;
 }
 
+/*Push content to the right of timeline ruler*/
 .container {
     padding-left: 50px;
     padding-right: 15px;
@@ -130,13 +132,14 @@ main {
     width: 100%;
 }
 
-/*circles*/
+/*Create circles to left of content*/
 .container::before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 15px;
+    width: 18px;
+    height: 18px;
+    left: 16px;
+    top: 0;
     background-color: #dee2e3;
     border: 4px solid #474747;
     top: 0px;
@@ -320,42 +323,24 @@ textarea {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /*.container::before {
-        display: none;
-    }*/
-
-    .timeline {
-        position: relative;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
     /*Timeline to center of page*/
     .timeline::after {
-        content: '';
-        position: absolute;
-        width: 6px;
-        background-color: #dee2e3;
-        top: 10px;
-        bottom: 10px;
         left: 50%;
         margin-left: -3px;
     }
 
-
     /*Make containers smaller to fit both sides of screen*/
     .container {
-        padding: 10px 40px;
-        position: relative;
+        padding: 0 40px;
         width: 50%;
     }
 
-    /*Place container to the right*/
+    /*Push container to the right*/
     .right {
         left: 50%;
     }
 
-    /*Pull the circles to the left*/
+    /*Pull the circles on the right to the timeline*/
     .container::before {
         left: -14px;
     }
@@ -363,7 +348,7 @@ textarea {
 
     /*Move the circles on the containers on the left to the timeline*/
     .container.left::before {
-        right: -14px;
+        right: -12px;
         left: auto;
     }
 
