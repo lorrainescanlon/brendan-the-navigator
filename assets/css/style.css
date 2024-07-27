@@ -370,6 +370,16 @@ main {
         padding-top: 10px;
     }
 
+    .circle-image {
+        height: 60vw;
+        width: 60vw;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+        border-radius: 0;
+        max-width: 300px;
+        max-height: 200px;
+    }
 
 }
 
