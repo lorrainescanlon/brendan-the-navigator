@@ -120,13 +120,13 @@ main {
     background-color: #dee2e3;
     top: 0;
     bottom: 0;
-    left: 31px;
+    left: 21px;
     margin-left: -3px;
 }
 
 /*Push content to the right of timeline ruler*/
 .container {
-    padding-left: 50px;
+    padding-left: 45px;
     padding-right: 15px;
     position: relative;
     /*background-color: #dee2e3;*/
@@ -139,7 +139,7 @@ main {
     position: absolute;
     width: 18px;
     height: 18px;
-    left: 16px;
+    left: 8px;
     top: 0;
     background-color: #dee2e3;
     border: 4px solid #474747;
