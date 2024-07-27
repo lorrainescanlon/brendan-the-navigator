@@ -165,6 +165,7 @@ main {
     color: #474747;
 }
 
+/*Voyage Page*/
 #voyage-title {
     background: url(../images/brandoncreek.jpg) no-repeat center center/cover;
     position: relative;
@@ -200,46 +201,29 @@ main {
     /*border-radius: 5%;*/
 }
 
-#faroe-sheep {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
 #sheep-circle {
     background-image: url(../images/faroe.jpg);
-}
-
-#volcano-image {
-    display: flex;
-    align-self: center;
-    justify-content: center;
 }
 
 #volcano-circle {
     background-image: url(../images/volcano.jpg);
 }
 
-
-#iceberg-image {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
 #iceberg-circle {
     background-image: url(../images/iceberg.jpg);
-}
-
-#columbus-image {
-    display: flex;
-    align-self: center;
-    justify-content: center;
 }
 
 #columbus-circle {
     background-image: url(../images/columbus.jpg);
 }
+
+/*Center images*/
+.center-image {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
 
 /* make images circular*/
 .circle-image {
