@@ -275,9 +275,10 @@ main {
     padding: 0 5px;
 }
 
-textarea {
+#query {
     background: transparent;
     border: 1px solid #474747;
+    color: #474747;
     border-radius: 5px;
     margin: 5px 0 20px 0;
     padding: 0 5px;
@@ -353,3 +354,18 @@ textarea {
 
 }
 
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    .voyage-split {
+        display:flex;
+        direction: row;
+    }
+
+
+}
+
+
+    /* devices 1200px and up */
+@media screen and (min-width: 1200px) {}
