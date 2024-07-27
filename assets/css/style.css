@@ -233,8 +233,8 @@ main {
     background-size: cover;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 /*Contact Page*/
@@ -361,6 +361,13 @@ main {
     .voyage-split {
         display:flex;
         direction: row;
+        justify-content: space-around;
+    }
+
+    #voyage-story p {
+        max-width: 500px;
+        text-align: justify;
+        padding-top: 10px;
     }
 
 
