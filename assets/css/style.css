@@ -355,47 +355,24 @@ textarea {
         left: 50%;
     }
 
-    /*Put circles to the left of right hand containers*/
-    .container.right::before {
-        content: '';
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        left: -15px;
-        background-color: #dee2e3;
-        border: 4px solid #474747;
-        top: 10px;
-        border-radius: 50%;
-        z-index: 1;
+    /*Pull the circles to the left*/
+    .container::before {
+        left: -14px;
     }
 
-    /*Put circles to the right of left hand containers*/
-    .container.left::after {
-        content: '';
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        right: -15px;
-        background-color: #dee2e3;
-        border: 4px solid #474747;
-        top: 10px;
-        border-radius: 50%;
-        z-index: 1;
+
+    /*Move the circles on the containers on the left to the timeline*/
+    .container.left::before {
+        right: -14px;
+        left: auto;
     }
 
 }
 
-
-
-
+    /*change background image on form page and align to top*/
     #contact {
-        /*background-image: url("../images/statue.jpg");*/
     background: url(../images/statuecroptop.jpg) no-repeat center top/cover;
-    /*background-size: cover;
-        background-position:top;*/
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
-
-}
