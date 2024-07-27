@@ -29,7 +29,7 @@ header {
     margin-top: 0;
     display: flex;
     height: 28px;
-    box-shadow: 0 1px #474747;
+    border-bottom: 1px solid #474747;
     z-index: 2;
 }
 
@@ -59,7 +59,7 @@ nav {
 /*Main Styles*/
 main {
     /* Make main element push footer down */
-    margin-top: 29px;
+    margin-top: 28px;
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -100,6 +100,7 @@ main {
     padding: 10px 10px;
     background-color: #dee2e3;
     position: relative;
+    border: 1px solid #474747;
     border-radius: 5px;
 
 }
@@ -154,7 +155,7 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: #dee2e3;
-    box-shadow: 0 -1px #474747;
+    border-top: 1px solid #474747;
 }
 
 #socials i {
@@ -195,7 +196,9 @@ main {
     padding: 2px;
     background-color: #dee2e3;
     padding: 10px;
+    border: 1px solid #474747;
     border-radius: 5px;
+
 }
 
 #sheep-circle {
