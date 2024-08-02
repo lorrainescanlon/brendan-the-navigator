@@ -166,7 +166,7 @@ main {
 }
 
 /*Voyage Page*/
-#voyage-title {
+#voyage-image {
     background: url(../images/brandoncreek.jpg) no-repeat center center/cover;
     position: relative;
     height: 300px;
@@ -174,7 +174,7 @@ main {
 
 }
 
-#voyage-title>h1 {
+#voyage-title {
     background-color: rgba(230, 229, 227, .7);
     position: absolute;
     color: #474747;
@@ -362,8 +362,8 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
-    .voyage-split {
+   
+     .voyage-split {
         display:flex;
         direction: row;
         justify-content: space-around;
@@ -390,4 +390,22 @@ main {
 
 
     /* devices 1200px and up */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    header {
+        height: 30px;
+        /*border-bottom: 1.5px solid #474747;*/
+    }
+
+    #links>a {
+        font-size: 100%;
+    }
+
+    main {
+        font-size: 120%;
+    }
+
+    #socials i {
+        font-size: 200%;
+    }
+}
