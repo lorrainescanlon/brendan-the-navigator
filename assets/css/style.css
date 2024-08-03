@@ -247,9 +247,16 @@ main {
     background-image: url("../images/statue.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
+
+/*#feedback {
+    display: flex;
+    position: absolute;
+    margin:auto;
+}*/
 
 /*Feedback Form*/
 #contact-form {
@@ -257,7 +264,6 @@ main {
     background: rgba(230, 229, 227, .7);
     padding: 30px;
     margin-top: 20px;
-    max-width: 400px;
 }
 
 #contact-form>h2 {
@@ -350,6 +356,14 @@ main {
         background: url(../images/statuecroptop.jpg) no-repeat center top/cover;
         padding: 20px 10% 0 10%;
         flex-grow: 1;
+        position: relative;
+    }
+
+    #feedback {
+        display: flex;
+        position: absolute;
+        margin-left: 18%;
+        margin-top: 4%;
     }
 
     .voyage-box {
@@ -386,6 +400,11 @@ main {
         max-height: 200px;
     }
 
+    #feedback {
+        margin-left: 22%;
+        margin-top: 4%;
+    }
+
 }
 
 
@@ -394,7 +413,6 @@ main {
 
     header {
         height: 30px;
-        /*border-bottom: 1.5px solid #474747;*/
     }
 
     #links>a {
@@ -407,5 +425,10 @@ main {
 
     #socials i {
         font-size: 200%;
+    }
+
+    #feedback {
+        margin-left: 25%;
+        margin-top: 4%;
     }
 }
