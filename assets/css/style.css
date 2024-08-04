@@ -251,12 +251,6 @@ main {
     flex-grow: 1;
 }
 
-/*#feedback {
-    display: flex;
-    position: absolute;
-    margin:auto;
-}*/
-
 /*Feedback Form*/
 #contact-form {
     color: #474747;
@@ -342,13 +336,11 @@ main {
         left: -14px;
     }
 
-
     /*Move the circles on the containers on the left to the timeline*/
     .container.left::before {
         right: -12px;
         left: auto;
     }
-
 
     /*change background image on form page and align to top*/
     #contact {
@@ -358,6 +350,7 @@ main {
         position: relative;
     }
 
+    /* Move form to center of page */
     #feedback {
         display: flex;
         position: absolute;
@@ -365,6 +358,7 @@ main {
         margin-top: 4%;
     }
 
+    /* Increase margin and padding of voyage box*/
     .voyage-box {
         margin: 10px 30px;
         padding: 10px 10px;
