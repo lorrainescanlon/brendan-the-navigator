@@ -372,7 +372,7 @@ main {
    
      .voyage-split {
         display:flex;
-        direction: row;
+        /*direction: row;*/
         justify-content: space-around;
     }
 
