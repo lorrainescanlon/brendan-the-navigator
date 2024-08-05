@@ -202,23 +202,23 @@ main {
 }
 
 #sheep-circle {
-    background-image: url(../images/faroe.jpg);
+    background-image: url(../images/faroeresized.jpg);
 }
 
 #volcano-circle {
-    background-image: url(../images/volcano.jpg);
+    background-image: url(../images/volcanoresized.jpg);
 }
 
 #iceberg-circle {
-    background-image: url(../images/iceberg.jpg);
+    background-image: url(../images/icebergresized.jpg);
 }
 
 #columbus-circle {
-    background-image: url(../images/columbus.jpg);
+    background-image: url(../images/columbusresized.jpg);
 }
 
 #tim-circle {
-    background-image: url(../images/map.jpg);
+    background-image: url(../images/mapresized.jpg);
 }
 
 /*Center images*/
