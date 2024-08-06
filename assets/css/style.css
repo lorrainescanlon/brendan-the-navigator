@@ -243,7 +243,7 @@ main {
 
 /*Contact Page*/
 #contact {
-    background-image: url("../images/statue.jpg");
+    background-image: url(../images/statue.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -344,11 +344,22 @@ main {
 
     /*change background image on form page and align to top*/
     #contact {
+        background-image: url(../images/statuecroptop.jpg);
+        /*background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        padding: 20px 10% 0 10%;
+        position: relative;
+        flex-grow: 1;*/
+    }
+
+    /*#contact {
         background: url(../images/statuecroptop.jpg) no-repeat center top/cover;
         padding: 20px 10% 0 10%;
         flex-grow: 1;
         position: relative;
-    }
+    }*/
 
     /* Move form to center of page */
     #feedback {
