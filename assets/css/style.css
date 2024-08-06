@@ -427,7 +427,7 @@ main {
     }
  
     #contact {
-        background: url(..//images/statuecroptop.jpg);
+        background: url(..//images/statuecroptop.jpg) no-repeat center top/cover;
         background-size: 100vw 100vw;
     }
 
