@@ -249,11 +249,13 @@ main {
 /*Contact Page*/
 
 #contact {
-    background-image: url("../images/statue.jpg");
+    background: url(../images/statue.jpg) no-repeat center top/cover;
+    /*background-image: url("../images/statue.jpg");
     background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-position: center;*/
+    /*width: 100%;*/
     padding: 20px 10% 0 10%;
+    position: relative;
     flex-grow: 1;
 }
 /*#contact {
@@ -272,7 +274,8 @@ main {
     color: #474747;
     background: rgba(230, 229, 227, .7);
     padding: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #contact-form>h2 {
@@ -434,11 +437,11 @@ main {
     }
 
     /*Use different statue image as background*/
-    #contact {
+    /*#contact {
         background: url(../images/statuecroptop.jpg) no-repeat center top/cover;
         padding: 20px 10% 0 10%;
         flex-grow: 1;
         position: relative;
-    }
+    }*/
         
 }
