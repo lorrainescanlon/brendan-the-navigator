@@ -21,7 +21,7 @@ I included the following features on my website.
   - The voyage section details Brendans famous seven year voyage, pictures are used to support the content. 
   - This should encourage the user to want to learn more about Brendan and his famous voyage. Links are provided to external sites where the user can find more information.
 ![Voyage Page](docs/images/voyage.PNG)
--__Contact Page__
+- __Contact Page__
   - This page will allow the user to contact the page with any queries. The user will be asked to submit their full name and email address.
   - The user will also have the opportunity to provide feedback in the form of a vote button. They can give their opinion on whether Brendan reached America or not.
 ![Contact](docs/images/form.PNG)
