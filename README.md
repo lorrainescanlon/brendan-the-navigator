@@ -2,34 +2,33 @@
 Brendan the Navigator is a site that hopes to introduce people to the man behind Saint Brendan, the fearless adventurer with a love for the travelling on the sea.
 To bring this figure and his lengendary voyage into the mainstream and make him appealing to all and not just people of faith. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Wireframe](docs/wireframes/brendanwireframes.pdf)
+![Responsive Design](docs/images/responsivevoyage.PNG)
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I included the following features on my website.
 ### Existing Features
 - __Navigation Bar__
   - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Voyage and Contact page. It is identical on each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](docs/images/navbar.PNG)
 - __The landing page image__
   - The landing page includes a photograph with text overlay to allow the user to see exactly what this site is about. 
   - This section introduces the user to Brendan the Navigator with an image of his statue which stands at Fenit harbour in Kerry to set the scene.
   - This section includes a responsive timeline of the history of Brendan the Navigator.
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](docs/images/landingimage.PNG)
 - __The Voyage__
   - The voyage section details Brendans famous seven year voyage, pictures are used to support the content. 
   - This should encourage the user to want to learn more about Brendan and his famous voyage. Links are provided to external sites where the user can find more information.
-![Voyage Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Voyage Page](docs/images/voyage.PNG)
 -__Contact Page__
   - This page will allow the user to contact the page with any queries. The user will be asked to submit their full name and email address.
   - The user will also have the opportunity to provide feedback in the form of a vote button. They can give their opinion on whether Brendan reached America or not.
-![Contact]
+![Contact](docs/images/form.PNG)
 - __The Footer__ 
   - The footer section includes links to the relevant social media sites for Brendan the Navigator. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](docs/images/footer.PNG)
 
 ### Features Left to Implement
 - As a future add on, a feature that would display the results on the vote button would be beneficial. Shown as a graphic to illustrate what percentage of users believe Brendan reached America versus the percentage that believe he didn't.
