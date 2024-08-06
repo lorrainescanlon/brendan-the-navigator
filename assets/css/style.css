@@ -197,7 +197,6 @@ main {
 /*Voyage content divs*/
 .voyage-box {
     margin: 10px;
-    padding: 2px;
     background-color: #dee2e3;
     padding: 10px;
     border: 1px solid #474747;
@@ -346,10 +345,36 @@ main {
         left: auto;
     }
 
-    /*#contact {
-    background-size: 100vw 100vw;
-    padding: 0;
-    }*/
+    /*Rearrange voyage content*/
+    .voyage-split {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .voyage-box {
+        padding-top: 5px;
+    }
+
+    #voyage-story {
+        margin: 20px;
+    }
+
+    #voyage-story p {
+        max-width: 400px;
+        text-align: justify;
+        padding-top: 10px;
+    }
+
+    .circle-image {
+        height: 60vw;
+        width: 60vw;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+        border-radius: 0;
+        max-width: 250px;
+        max-height: 200px;
+    }
 
     /* Move form to center of page */
     #feedback {
@@ -371,10 +396,17 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
    
-     .voyage-split {
+    /* .voyage-split {
         display:flex;
-        /*direction: row;*/
         justify-content: space-around;
+    }
+
+    .voyage-box {
+        padding-top: 5px;
+    }
+
+    #voyage-story {
+        margin: 20px 50px 50px 50px;
     }
 
     #voyage-story p {
@@ -392,7 +424,7 @@ main {
         border-radius: 0;
         max-width: 300px;
         max-height: 200px;
-    }
+    }*/
 
     #feedback {
         margin-left: 22%;
@@ -418,7 +450,7 @@ main {
     }
 
     #socials i {
-        font-size: 200%;
+        font-size: 180%;
     }
 
     #feedback {
@@ -428,7 +460,6 @@ main {
  
     #contact {
         background: url(..//images/statuecroptop.jpg) no-repeat center top/cover;
-        background-size: 100vw 100vw;
     }
 
 }
