@@ -32,7 +32,22 @@ I included the following features on my website.
 
 ### Features Left to Implement
 - As a future add on, a feature that would display the results on the vote button would be beneficial. Shown as a graphic to illustrate what percentage of users believe Brendan reached America versus the percentage that believe he didn't.
-## Testing 
+## Testing
+- This page has been tested on different browsers such as chrome, firefox and samsung internet browser.
+- Responsiveness and functionality have been tested on all screen sizes using the dev tools device toolbar.
+- All links have been tested.
+- I have tested the contact form validation for text and email input fields. 
+- The submit button also posts the data to the code institute server. 
+- I used lighthouse to test the websites performance and .. 
+
+## Bugs Encountered
+- When I first deployed the website to GitHub, I discovered that the social media links didn't work. 
+  This was due to not enclosing the icons within the anchor opening and closing tags.
+- I also discovered that my radio buttons didn't behave as expected. 
+  This was due to me assigning unique ids to the buttons, I resolved this by giving them both the same id.
+- I encountered problems when applying the media query to change the layout of the timeline for larger screens. The timeline ruler and containers were displaying correctly, the problem was that 
+  the exisiting circles for some containers were not being re organised so I had duplicate circles. With some assistance from tutor support I added a line of code left;auto to set the offending items to default.
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
