@@ -247,27 +247,12 @@ main {
 }
 
 /*Contact Page*/
-
 #contact {
     background: url(../images/statue.jpg) no-repeat center top/cover;
-    /*background-image: url("../images/statue.jpg");
-    background-size: cover;
-    background-position: center;*/
-    /*width: 100%;*/
     padding: 20px 10% 0 10%;
     position: relative;
     flex-grow: 1;
 }
-/*#contact {
-    background-image: url(../images/statue.jpg);
-    background-size: cover;
-    background-position: center;
-    background: url(../images/statue.jpg) no-repeat center top/cover;
-    width: 100%;
-    padding: 20px 10% 0 10%;
-    position: relative;
-    flex-grow: 1;
-}*/
 
 /*Feedback Form*/
 #contact-form {
@@ -435,13 +420,5 @@ main {
         margin-left: 25%;
         margin-top: 4%;
     }
-
-    /*Use different statue image as background*/
-    /*#contact {
-        background: url(../images/statuecroptop.jpg) no-repeat center top/cover;
-        padding: 20px 10% 0 10%;
-        flex-grow: 1;
-        position: relative;
-    }*/
         
 }
