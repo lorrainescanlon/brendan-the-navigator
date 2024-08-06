@@ -346,6 +346,11 @@ main {
         left: auto;
     }
 
+    /*#contact {
+    background-size: 100vw 100vw;
+    padding: 0;
+    }*/
+
     /* Move form to center of page */
     #feedback {
         display: flex;
@@ -418,7 +423,12 @@ main {
 
     #feedback {
         margin-left: 25%;
-        margin-top: 4%;
+        margin-top: 2%;
     }
-        
+ 
+    #contact {
+        background: url(..//images/statuecroptop.jpg);
+        background-size: 100vw 100vw;
+    }
+
 }
