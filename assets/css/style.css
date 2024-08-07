@@ -98,7 +98,7 @@ main {
 /*History content*/
 .history-box {
     margin: 15px;
-    padding: 10px 10px;
+    padding: 12px 12px;
     background-color: #dee2e3;
     position: relative;
     border: 1px solid #474747;
@@ -199,7 +199,7 @@ main {
 .voyage-box {
     margin: 10px;
     background-color: #dee2e3;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #474747;
     border-radius: 5px;
 }
@@ -365,7 +365,7 @@ main {
     /* Increase margin and padding of voyage box*/
     #voyage-story {
         margin: 20px;
-        padding-top: 5px;
+        padding-top: 10px 5px;
     }
 
     #voyage-story p {
