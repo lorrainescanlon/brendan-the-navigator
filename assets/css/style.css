@@ -168,9 +168,9 @@ main {
 
 /*Voyage Page*/
 #voyage-image {
-    background: url(../images/brandoncreekresized.jpg) no-repeat center center/cover;
+    background: url(../images/sea.jpg) no-repeat center center;
     position: relative;
-    height: 300px;
+    height: 150px;
     width: 100%;
 
 }
@@ -185,7 +185,7 @@ main {
     width: 100%;
     font-size: 100%;
     padding: 3px;
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: center;
 
 }
@@ -205,6 +205,11 @@ main {
 }
 
 /*Voyage image files*/
+
+#brandon-circle {
+    background-image: url(../images/brandonresized.jpg);
+}
+
 #sheep-circle {
     background-image: url(../images/faroeresized.jpg);
 }
@@ -345,6 +350,10 @@ main {
     .container.left::before {
         right: -12px;
         left: auto;
+    }
+
+    #voyage-image {
+        background: url(../images/sea.jpg) no-repeat center center/cover;
     }
 
     /*Rearrange voyage content*/
