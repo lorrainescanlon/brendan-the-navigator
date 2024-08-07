@@ -232,17 +232,18 @@ main {
     justify-content: center;
 }
 
-
 /* make images circular*/
 .circle-image {
     height: 60vw;
     width: 60vw;
     background-position: center;
     background-size: cover;
-    margin-bottom: 20px;
     border-radius: 50%;
     max-width: 200px;
     max-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 /*Contact Page*/
@@ -350,30 +351,24 @@ main {
         display:flex;
         justify-content: space-around;
     }
-
-    .voyage-box {
-        padding-top: 5px;
-    }
-
+    
+    /* Increase margin and padding of voyage box*/
     #voyage-story {
         margin: 20px;
+        padding-top: 5px;
     }
 
     #voyage-story p {
         max-width: 400px;
         text-align: justify;
-        padding-top: 10px;
     }
 
     .circle-image {
-        height: 60vw;
-        width: 60vw;
-        background-position: center;
-        background-size: cover;
         margin-bottom: 10px;
+        margin-top: 0;
         border-radius: 0;
         max-width: 250px;
-        max-height: 200px;
+        max-height: auto;
     }
 
     /* Move form to center of page */
@@ -384,51 +379,29 @@ main {
         margin-top: 4%;
     }
 
-    /* Increase margin and padding of voyage box*/
-    .voyage-box {
-        margin: 10px 30px;
-        padding: 10px 10px;
-    }
-
 }
 
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
    
-    /* .voyage-split {
-        display:flex;
-        justify-content: space-around;
-    }
-
-    .voyage-box {
-        padding-top: 5px;
+    #feedback {
+        margin-left: 22%;
+        margin-top: 4%;
     }
 
     #voyage-story {
         margin: 20px 50px 50px 50px;
+        padding-top: 30px;
     }
 
     #voyage-story p {
         max-width: 500px;
-        text-align: justify;
-        padding-top: 10px;
     }
 
     .circle-image {
-        height: 60vw;
-        width: 60vw;
-        background-position: center;
-        background-size: cover;
-        margin-bottom: 10px;
-        border-radius: 0;
         max-width: 300px;
-        max-height: 200px;
-    }*/
-
-    #feedback {
-        margin-left: 22%;
-        margin-top: 4%;
+        max-height: auto;
     }
 
 }
@@ -451,6 +424,15 @@ main {
 
     #socials i {
         font-size: 180%;
+    }
+
+    #voyage-story p {
+        max-width: 600px;
+    }
+
+    .circle-image {
+        max-width: 400px;
+        max-height: auto;
     }
 
     #feedback {
