@@ -33,14 +33,14 @@ header {
     z-index: 2;
 }
 
-/*Nav bar styles*/
+/* Nav bar styles */
 nav {
     width: 100%;
     background-color: #dee2e3;
     display: flex;
 }
 
-/*Link styles*/
+/* Links */
 #links {
     width: 100%;
     display: flex;
@@ -48,6 +48,7 @@ nav {
     align-items: center;
 }
 
+/* Style links */
 #links>a {
     text-decoration: none;
     font-weight: bold;
@@ -55,11 +56,14 @@ nav {
     color: #474747;
     font-size: 80%;
 }
+
+/* Link style change on hover */
 #links a:hover {
     color: #dee2e3;
     background-color: #474747;
 }
 
+/* Image styles */
 img {
     height: 200px;
     width: 200px;
@@ -68,9 +72,9 @@ img {
     margin-bottom: 10px;
 }
 
-/*Main Styles*/
+/* Main Styles */
 main {
-    /* Make main element push footer down */
+    /* push footer down */
     margin-top: 28px;
     flex: 1 0 auto;
     display: flex;
@@ -78,16 +82,15 @@ main {
     width: 100%;
 }
 
-/*Landing page image*/
+/* Landing page image */
 #cover-image {
     background: url(../images/statuecroptop.jpg) no-repeat center top/cover;
     position: relative;
     height: 300px;
     width: 100%;
-    border-bottom: 1px outset #474747;
 }
 
-/*Brendan the Navigator Title*/
+/* Landing page title */
 #title {
     background-color: rgba(230, 229, 227, .7);
     position: absolute;
@@ -101,13 +104,13 @@ main {
     text-align: center;
 }
 
-/*History section*/
+/* History section */
 #history {
     width: 100%;
     padding: 10px;
 }
 
-/*History content*/
+/* History content */
 .history-box {
     margin: 15px;
     padding: 12px 12px;
@@ -118,15 +121,15 @@ main {
 
 }
 
-/*Timeline*/
-.timeline {
+/* Timeline div */
+#timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/*Timeline ruler*/
-.timeline::after {
+/* Create timeline ruler just inside timeline div */
+#timeline::after {
     content: '';
     position: absolute;
     width: 3px;
@@ -137,7 +140,7 @@ main {
     margin-left: -3px;
 }
 
-/*Push content to the right of timeline ruler*/
+/* Push container divs to the right of timeline ruler */
 .container {
     padding-left: 45px;
     padding-right: 15px;
@@ -145,7 +148,7 @@ main {
     width: 100%;
 }
 
-/*Create circles to left of content*/
+/* Create circles to left of container divs */
 .container::before {
     content:'';
     position: absolute;
@@ -160,7 +163,7 @@ main {
     z-index: 1;
 }
 
-/*Footer*/
+/* Footer */
 #socials {
     text-align: center;
     padding: 20px 0;
@@ -378,7 +381,7 @@ main {
         }
 
     /*Timeline to center of page*/
-    .timeline::after {
+    #timeline::after {
         left: 50%;
         margin-left: -3px;
     }
