@@ -166,6 +166,11 @@ main {
     color: #474747;
 }
 
+#socials i:hover {
+    color:  #dee2e3;
+    
+}
+
 /*Voyage Page*/
 #voyage-image {
     background: url(../images/sea.jpg) no-repeat center center;
