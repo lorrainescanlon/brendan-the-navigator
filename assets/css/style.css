@@ -324,32 +324,14 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /*Timeline to center of page*/
-    .timeline::after {
-        left: 50%;
-        margin-left: -3px;
+    /*History section*/
+    #history {
+    margin-left: 10px;
+    margin-right: 10px;
     }
 
-    /*Make containers smaller to fit both sides of screen*/
-    .container {
-        padding: 0 40px;
-        width: 50%;
-    }
-
-    /*Push container to the right*/
-    .right {
-        left: 50%;
-    }
-
-    /*Pull the circles on the right to the timeline*/
-    .container::before {
-        left: -14px;
-    }
-
-    /*Move the circles on the containers on the left to the timeline*/
-    .container.left::before {
-        right: -12px;
-        left: auto;
+    .history-box {
+        margin: 15px 30px 15px 15px;
     }
 
     #voyage-image {
@@ -393,6 +375,48 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    #history {
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+
+    /*Timeline to center of page*/
+    .timeline::after {
+        left: 50%;
+        margin-left: -3px;
+    }
+
+    /*Make containers smaller to fit both sides of screen*/
+    .container {
+        padding: 0 40px;
+        width: 50%;
+    }
+
+    /*Push container to the right*/
+    .right {
+        left: 50%;
+    }
+
+    /*Pull the circles on the right to the timeline*/
+    .container::before {
+        left: -14px;
+    }
+
+    /*Move the circles on the containers on the left to the timeline*/
+    .container.left::before {
+        right: -12px;
+        left: auto;
+    }
+
+    #early.history-box {
+        margin: 15px 15px 15px 30px;
+    }
+
+    #recreation.history-box {
+        margin: 15px 15px 15px 30px;
+    }
+
    
     #feedback {
         margin-left: 22%;
