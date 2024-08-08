@@ -326,7 +326,7 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /*History section*/
+    /*Increase padding for history section*/
     #history {
     padding-left: 15px;
     padding-right: 15px;
@@ -337,7 +337,7 @@ main {
         margin: 15px 30px 15px 15px;
     }
 
-    /* Voyage image style*/
+    /* Voyage image style cover*/
     #voyage-image {
         background: url(../images/sea.jpg) no-repeat center center/cover;
     }
@@ -359,15 +359,16 @@ main {
         max-width: 400px;
         text-align: justify;
     }
-    /* Increase size of voyage images */
+
+    /* Increase size of voyage images and turn back to rectangles */
     img {
         width: 250px;
         border-radius: 0;
         margin-bottom: 10px;
         margin-top: 0;
-        /*object-fit: cover;*/
     }
-    /* Increase the size of form */
+
+    /* Increase size of contact form */
     #contact-form {
         max-width: 400px;
     }
@@ -378,64 +379,61 @@ main {
 /*Media Query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
 
-    #history {
-        margin-left: 0px;
-        margin-right: 0px;
-        }
-
-    /*Timeline to center of page*/
+    /* Move timeline bar to center of page */
     #timeline::after {
         left: 50%;
         margin-left: -3px;
     }
 
-    /*Make containers smaller to fit both sides of screen*/
+    /* Make containers smaller to fit both sides of screen */
     .container {
         padding: 0 40px;
         width: 50%;
     }
 
-    /*Push container to the right*/
+    /* Push containers to the right */
     .right {
         left: 50%;
     }
 
-    /*Pull the circles on the right to the timeline*/
+    /* Pull circles on the right to the timeline */
     .container::before {
         left: -14px;
     }
 
-    /*Move the circles on the containers on the left to the timeline*/
+    /* Move circles on the left to the timeline */
     .container.left::before {
         right: -12px;
         left: auto;
     }
 
+    /* Rearrange margins for content boxes on left */
     #early.history-box {
         margin: 15px 15px 15px 30px;
     }
 
+    /* Rearrange margins for content boxes on right */
     #recreation.history-box {
         margin: 15px 15px 15px 30px;
     }
-   
-    #feedback {
-        margin-left: 22%;
-        margin-top: 4%;
-    }
 
+    /* Increase height of voyage page main image */
     #voyage-image {
         height: 175px;
     }
+
+    /* Increase margins and padding for voyage content */
     #voyage-story {
         margin: 20px 50px 50px 50px;
         padding-top: 30px;
     }
 
+    /* Increase size of voyage paragraphs */
     #voyage-story p {
         max-width: 500px;
     }
 
+    /* Increase size of voyage images */
     img {
         width: 300px;
         height: 200px;
@@ -447,48 +445,49 @@ main {
 /*Media Query: larger devices (1200px and up) */
 @media screen and (min-width: 1200px) {
 
+    /* Increase header size */
     header {
         height: 30px;
     }
 
+    /* Increase size of nav links */
     #links>a {
         font-size: 100%;
     }
 
+    /* Increase font size */
     main {
         font-size: 120%;
     }
 
+    /* Increase size of social media icons */
     #socials i {
         font-size: 180%;
     }
 
+    /* Increase height of voyage page main image */
     #voyage-image {
         height: 200px;
     }
 
+    /* Rearrange space around voyage content */
     .voyage-split {
-        gap: 20px;
         justify-content: space-evenly;
     }
 
+    /* Increase size of voyage paragraphs */
     #voyage-story p {
         max-width: 600px;
     }
 
+    /* Increase size of voyage images */
     img {
         width: 350px;
         height: 250px;
-        /*object-fit: cover;*/
-        }
-  
-
-    #feedback {
-        margin-left: 25%;
-        margin-top: 2%;
     }
- 
-    #contact {
+
+    /* Use cropped background image for larger screens */
+    #contact { 
         background: url(..//images/statuecroptop.jpg) no-repeat center top/cover;
     }
 
