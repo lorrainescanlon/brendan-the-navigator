@@ -55,6 +55,18 @@ nav {
     color: #474747;
     font-size: 80%;
 }
+#links a:hover {
+    color: #dee2e3;
+    background-color: #474747;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
 
 /*Main Styles*/
 main {
@@ -167,8 +179,8 @@ main {
 }
 
 #socials i:hover {
-    color:  #dee2e3;
-    
+    color: #dee2e3;
+    background-color: #474747;
 }
 
 /*Voyage Page*/
@@ -195,12 +207,12 @@ main {
 
 }
 
-/*Voyage Content*/
+/*Voyage Section*/
 #voyage-content {
     width: 100%;
 }
 
-/*Voyage content divs*/
+/*Voyage Content*/
 .voyage-box {
     margin: 10px;
     background-color: #dee2e3;
@@ -209,51 +221,11 @@ main {
     border-radius: 5px;
 }
 
-/*Voyage image files*/
-
-#brandon-circle {
-    background-image: url(../images/brandonresized.jpg);
-}
-
-#sheep-circle {
-    background-image: url(../images/faroeresized.jpg);
-}
-
-#volcano-circle {
-    background-image: url(../images/volcanoresized.jpg);
-}
-
-#iceberg-circle {
-    background-image: url(../images/icebergresized.jpg);
-}
-
-#columbus-circle {
-    background-image: url(../images/columbusresized.jpg);
-}
-
-#tim-circle {
-    background-image: url(../images/mapresized.jpg);
-}
-
 /*Center images*/
 .center-image {
     display: flex;
     align-self: center;
     justify-content: center;
-}
-
-/* make images circular*/
-.circle-image {
-    height: 60vw;
-    width: 60vw;
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
 }
 
 /*Contact Page*/
@@ -331,8 +303,8 @@ main {
 
     /*History section*/
     #history {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     }
 
     .history-box {
@@ -346,7 +318,7 @@ main {
     /*Rearrange voyage content*/
     .voyage-split {
         display:flex;
-        justify-content: space-around;
+        justify-content:space-around;
     }
     
     /* Increase margin and padding of voyage box*/
@@ -360,11 +332,12 @@ main {
         text-align: justify;
     }
 
-    .circle-image {
+    img {
+        width: 250px;
+        border-radius: 0;
         margin-bottom: 10px;
         margin-top: 0;
-        border-radius: 0;
-        max-width: 250px;
+        /*object-fit: cover;*/
     }
 
     /* Move form to center of page */
@@ -421,13 +394,15 @@ main {
     #recreation.history-box {
         margin: 15px 15px 15px 30px;
     }
-
    
     #feedback {
         margin-left: 22%;
         margin-top: 4%;
     }
 
+    #voyage-image {
+        height: 175px;
+    }
     #voyage-story {
         margin: 20px 50px 50px 50px;
         padding-top: 30px;
@@ -437,9 +412,10 @@ main {
         max-width: 500px;
     }
 
-    .circle-image {
-        max-width: 300px;
-    }
+    img {
+        width: 300px;
+        height: 200px;
+        }
 
 }
 
@@ -463,13 +439,25 @@ main {
         font-size: 180%;
     }
 
+    #voyage-image {
+        height: 200px;
+    }
+
+    .voyage-split {
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
     #voyage-story p {
         max-width: 600px;
     }
 
-    .circle-image {
-        max-width: 400px;
-    }
+    img {
+        width: 350px;
+        height: 250px;
+        /*object-fit: cover;*/
+        }
+  
 
     #feedback {
         margin-left: 25%;
