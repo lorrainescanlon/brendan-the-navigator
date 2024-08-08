@@ -228,31 +228,41 @@ main {
     justify-content: center;
 }
 
-/*Contact Page*/
+/*Contact Section*/
 #contact {
     background: url(../images/statue.jpg) no-repeat center top/cover;
     padding: 20px 10% 0 10%;
     position: relative;
     flex-grow: 1;
 }
+/*Feedback Div*/
+#feedback {
+    display: flex;
+}
 
 /*Feedback Form*/
 #contact-form {
+    display: flex;
+    flex-direction: column;
     color: #474747;
     background: rgba(230, 229, 227, .7);
     padding: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    align-self: center;
 }
 
-#contact-form>h2 {
+#contact-form>h2, h3 {
     color: #474747;
-    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 #contact-form>p {
     color: #474747;
-    line-height: 1.5;
+    text-align: center;
+    /*line-height: 1.2em;*/
+
 }
 
 .text-input {
@@ -271,7 +281,7 @@ main {
     border: 1px solid #474747;
     color: #474747;
     border-radius: 5px;
-    margin: 5px 0 20px 0;
+    /*margin: 5px 0 20px 0;*/
     padding: 0 5px;
 }
 
@@ -279,22 +289,30 @@ main {
     border: 1px solid #474747;
     border-style: groove;
     border-radius: 5px;
-    line-height: 1.5;
     text-align: center;
+    padding: 5px;
 }
 
-.radio-buttons {
+#radio-buttons {
     display: flex;
     justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.submit-button {
+#submit-query {
+    height: 50px;
+    width: 100x;
     padding: 15px;
     background-color: rgba(71, 71, 71, .6);
     font-size: 100%;
     border: 1px solid #474747;
     border-radius: 5px;
     margin-top: 15px;
+    align-self: center;
+}
+#submit-query:hover {
+    background-color: #dee2e3;
 }
 
 
@@ -351,7 +369,7 @@ main {
 }
 
 
-/* Large devices (laptops and desktops, 992px and up) */
+/*Media Query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
 
     #history {
@@ -420,7 +438,7 @@ main {
 }
 
 
-    /* devices 1200px and up */
+/*Media Query: larger devices (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     header {

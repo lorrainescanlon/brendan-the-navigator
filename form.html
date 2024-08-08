@@ -37,7 +37,7 @@
                 
                 <!--Form-->
                 <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
-                    <h2>Have a Query Get in Touch</h2>
+                    <h2>Have a Query Get in Touch</h2><br>
                     <label for="first-name">First Name</label>
                     <input id="first-name" type="text" name="first_name" class="text-input" required>
                     <br>
@@ -48,13 +48,12 @@
                     <input id="email-address" type="email" name="email_address" class="text-input" required>
                     <br>
                     <label for="query">Query</label>
-                    <br>
                     <textarea id="query" name="comment" rows="6" cols="25" placeholder="Your Query Here" maxlength="250"></textarea>
                     <br>
-                    <p>Just for Fun!<p>
+                    <h3>Just for Fun!</h3>
                         <div id="vote-radio">
                             <p>Do you think Brendan reached America?</p>
-                            <div class="radio-buttons">
+                            <div id="radio-buttons">
                                 <div>
                                     <input type="radio" id="vote-yes" name="vote" value="Likely" checked>
                                     <label for="vote-yes">Likely</label>
@@ -65,7 +64,7 @@
                                 </div>
                             </div>
                         </div>
-                    <input type="submit" class="submit-button" value="Submit">
+                    <input type="submit" id="submit-query" value="Submit">
                 </form>
             </div>
         </section>
