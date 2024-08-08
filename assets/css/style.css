@@ -134,14 +134,14 @@ main {
     position: absolute;
     width: 3px;
     background-color: #dee2e3;
-    /* push timeline down by 1px so it doesnt poke out from the top sides of the circles */
+    /* push timeline down by 1px so it doesnt poke out from top circle */
     top: 1px;
     bottom: 0;
     left: 21px;
     margin-left: -3px;
 }
 
-/* Push container divs to the right of timeline ruler */
+/* Push container divs to right of timeline ruler */
 .container {
     padding-left: 45px;
     padding-right: 15px;
@@ -248,7 +248,7 @@ main {
     flex-direction: column;
     color: #474747;
     background: rgba(230, 229, 227, .7);
-    padding: 30px;
+    padding: 10px 30px 10px 30px;
     max-width: 300px;
     align-self: center;
 }
