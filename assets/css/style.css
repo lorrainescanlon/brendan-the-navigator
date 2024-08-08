@@ -134,7 +134,8 @@ main {
     position: absolute;
     width: 3px;
     background-color: #dee2e3;
-    top: 0;
+    /* push timeline down by 1px so it doesnt poke out from the top sides of the circles */
+    top: 1px;
     bottom: 0;
     left: 21px;
     margin-left: -3px;
@@ -174,19 +175,20 @@ main {
     border-top: 1px solid #474747;
 }
 
-/*Social Media Links*/
-#socials i {
+/* Social media icons style */
+#socials i { 
     font-size: 150%;
     padding: 5%;
     color: #474747;
 }
 
+/* Social media style change on hover */
 #socials i:hover {
     color: #dee2e3;
     background-color: #474747;
 }
 
-/*Voyage Page*/
+/* Voyage page image */
 #voyage-image {
     background: url(../images/sea.jpg) no-repeat center center;
     position: relative;
@@ -195,7 +197,7 @@ main {
 
 }
 
-/*Voyage Title*/
+/* Voyage page title */
 #voyage-title {
     background-color: rgba(230, 229, 227, .7);
     position: absolute;
@@ -210,12 +212,12 @@ main {
 
 }
 
-/*Voyage Section*/
+/* Voyage section */
 #voyage-content {
     width: 100%;
 }
 
-/*Voyage Content*/
+/* Voyage content */
 .voyage-box {
     margin: 10px;
     background-color: #dee2e3;
@@ -224,50 +226,47 @@ main {
     border-radius: 5px;
 }
 
-/*Center images*/
+/* Center voyage images */
 .center-image {
     display: flex;
     align-self: center;
     justify-content: center;
 }
 
-/*Contact Section*/
+/* Contact page */
 #contact {
     background: url(../images/statue.jpg) no-repeat center top/cover;
-    padding: 20px 10% 0 10%;
+    display: flex;
+    justify-content: center;
     position: relative;
     flex-grow: 1;
 }
-/*Feedback Div*/
-#feedback {
-    display: flex;
-}
 
-/*Feedback Form*/
+/* Feedback Form */
 #contact-form {
     display: flex;
     flex-direction: column;
     color: #474747;
     background: rgba(230, 229, 227, .7);
     padding: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    max-width: 300px;
     align-self: center;
 }
 
+/* Feedback form heading styles */
 #contact-form>h2, h3 {
     color: #474747;
     text-align: center;
     padding-bottom: 5px;
 }
 
+/* Feedback form paragraph styles */
 #contact-form>p {
     color: #474747;
     text-align: center;
-    /*line-height: 1.2em;*/
-
 }
 
+/* Text input box styles */
 .text-input {
     background: transparent;
     height: 25px;
@@ -279,15 +278,16 @@ main {
     color: #474747;
 }
 
+/* Query box textare styles */
 #query {
     background: transparent;
     border: 1px solid #474747;
     color: #474747;
     border-radius: 5px;
-    /*margin: 5px 0 20px 0;*/
     padding: 0 5px;
 }
 
+/* Vote box styles */
 #vote-radio {
     border: 1px solid #474747;
     border-style: groove;
@@ -296,6 +296,7 @@ main {
     padding: 5px;
 }
 
+/* Radio buttons style */
 #radio-buttons {
     display: flex;
     justify-content: space-around;
@@ -303,6 +304,7 @@ main {
     padding-bottom: 5px;
 }
 
+/* Submit button styles */
 #submit-query {
     height: 50px;
     width: 100x;
@@ -314,6 +316,8 @@ main {
     margin-top: 15px;
     align-self: center;
 }
+
+/* Submit button style change on hover */
 #submit-query:hover {
     background-color: #dee2e3;
 }
@@ -328,10 +332,12 @@ main {
     padding-right: 15px;
     }
 
+    /* History content */
     .history-box {
         margin: 15px 30px 15px 15px;
     }
 
+    /* Voyage image style*/
     #voyage-image {
         background: url(../images/sea.jpg) no-repeat center center/cover;
     }
@@ -348,11 +354,12 @@ main {
         padding-top: 10px 5px;
     }
 
+    /*Increase size of voyage paragraphs */
     #voyage-story p {
         max-width: 400px;
         text-align: justify;
     }
-
+    /* Increase size of voyage images */
     img {
         width: 250px;
         border-radius: 0;
@@ -360,13 +367,9 @@ main {
         margin-top: 0;
         /*object-fit: cover;*/
     }
-
-    /* Move form to center of page */
-    #feedback {
-        display: flex;
-        position: absolute;
-        margin-left: 18%;
-        margin-top: 4%;
+    /* Increase the size of form */
+    #contact-form {
+        max-width: 400px;
     }
 
 }
