@@ -78,11 +78,12 @@ You can break the credits section up into Content and Media, depending on what y
 - I used Irish Culture and Customs https://www.irishcultureandcustoms.com/ASaints/BrendanNav.html as a content source.
 
 ### Media
-- The faroe.jpg image used is from Unsplash by the user Robert Bahn.
-- The volcano.jpg image used is from pixabay.com by the user Julius H.
-- The iceberg.jpg image used is from pixabay.com by the user Lurens.
-- The columbus.jpg image used is from pixabay.com by the user dp1616.
-- The map.jpg image used is from pixabay.com by user DarkMoon_Art.
+- The Statue and Brandon Creek images are my own.
+- The Sea image used is from Unsplash by Ulrike Donohue.
+- The Puffin image used is from Pixabay by Frank Liebmann.
+- The Volcano image used is from Pixabay by Julius H.
+- The Iceberg image used is from Pixabay by Lurens.
+- The Ship image used is from Pixabay by the user dp1616.
 - The compass favicon was taken from https://favicon.io/.com
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 ### Code

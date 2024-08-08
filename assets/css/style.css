@@ -108,17 +108,25 @@ main {
 #history {
     width: 100%;
     padding: 10px;
+    
 }
 
 /* History content */
 .history-box {
+    display: flex;
+    flex-direction: column;
     margin: 15px;
     padding: 12px 12px;
     background-color: #dee2e3;
     position: relative;
     border: 1px solid #474747;
     border-radius: 5px;
+}
 
+/* Align heading3 to the left */
+.history-box> h3 {
+    color: #474747;
+    text-align: left;
 }
 
 /* Timeline div */
