@@ -315,7 +315,7 @@ main {
 /* Submit button styles */
 #submit-query {
     height: 50px;
-    width: 100x;
+    width: 100px;
     padding: 15px;
     background-color: rgba(71, 71, 71, .6);
     font-size: 100%;
@@ -359,7 +359,7 @@ main {
     /* Increase margin and padding of voyage box*/
     #voyage-story {
         margin: 20px;
-        padding-top: 10px 5px;
+        padding-top: 10px;
     }
 
     /*Increase size of voyage paragraphs */
