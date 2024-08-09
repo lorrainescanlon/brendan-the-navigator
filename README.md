@@ -5,7 +5,7 @@
 
 ## Code Institute - First Milestone Project: User Centric Frontend Development.
 
-This website was developed to demonstrate my ability to design and construct a static website.
+This website was created to demonstrate my ability to design and develop a static website.
 
 Brendan the Navigator is a site that hopes to introduce people to the man behind Saint Brendan, the fearless adventurer with a love for travelling on the sea.
 This website aims to bring this figure and his lengendary voyage into the mainstream and make him appealing to all and not just people of faith. 
