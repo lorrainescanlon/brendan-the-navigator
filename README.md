@@ -1,5 +1,5 @@
 # Brendan the Navigator
-Brendan the Navigator is a site that hopes to introduce people to the man behind Saint Brendan, the fearless adventurer with a love for the travelling on the sea.
+Brendan the Navigator is a site that hopes to introduce people to the man behind Saint Brendan, the fearless adventurer with a love for travelling on the sea.
 This website aims to bring this figure and his lengendary voyage into the mainstream and make him appealing to all and not just people of faith. 
 
 ![Wireframe](docs/wireframes/brendanwireframes.pdf)
@@ -29,7 +29,7 @@ I included the following features on my website.
   - Links are provided to external sites where the user can find more information.
 ![Voyage Page](docs/images/voyage.PNG)
 - __Contact Page__
-  - This page will allow the user to contact the page with any queries or feedback. 
+  - This page will allow the user to contact the website with any queries or feedback. 
   - The user will be asked to submit their full name and email address.
   - The user will also have the opportunity to vote on whether the believe Brendan reached America or not.
 ![Contact](docs/images/form.PNG)
@@ -40,7 +40,7 @@ I included the following features on my website.
 ![Footer](docs/images/footer.PNG)
 
 ### Features Left to Implement
-- As a future add on, a feature that would display the results on the vote button. Shown as a graphic to illustrate what percentage of users 
+- As a future add on, a feature that would display the results of the vote button. Shown as a graphic to illustrate what percentage of users 
   believe Brendan reached America versus the percentage that believe he didn't.
 - An interactive map of Brendans 7 year voyage would be a great feature to support the existing content.
 - I think on very large devices a horizontal implementation of the timeline could make better use of screen space.
@@ -53,9 +53,9 @@ I included the following features on my website.
 - All pages passed lighthouse testing for performance, accessibility, best practices and search engine optimization. 
 
 ## Bugs Encountered
-- When I first deployed the website to GitHub, I discovered that the social media links didn't work. 
+- When I first deployed the website to GitHub, I discovered that the social media links did not work. 
   This was due to not enclosing the icons within the anchor opening and closing tags.
-- I also discovered that my radio buttons didn't behave as expected. 
+- I also discovered that the form radio buttons did not behave as expected. 
   This was due to me assigning unique ids to the buttons, this was resolved by giving them both the same id.
 - I encountered problems when applying the media query to change the layout of the timeline for larger screens. 
   The timeline ruler and containers were displaying correctly, the problem was that the exisiting circles for some containers were not being re organised so I had duplicate circles. With some assistance from tutor support I added a line of code left;auto to set the items to default.
