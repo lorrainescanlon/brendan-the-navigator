@@ -51,7 +51,7 @@ This website is aimed at users who have an interest in history. It aims to appea
 - As a user I want the purpose of the website to be clear and immediate.
 - As a user I don't want to be overwhelmed by a cluttered landing page.
 - As a user I want to easily navigate between the different pages on the site.
-- As a user I want to be presented with the content in a chronolgical form. 
+- As a user I want to be presented with the content in chronolgical form. 
 - As a user I want visuals to bring the content to life.
 - As a user I want to decide if I would like to learn more about this historical figure.
 - As a user I would like the opportunity to contact the page or provide feedback.
@@ -60,10 +60,10 @@ This website is aimed at users who have an interest in history. It aims to appea
 The goal is to create a well-functioning informative website. The focus is on presenting the content clearly and in a user-friendly manner. 
 
 ### Scope
-I wanted to include features that enhanced the user experience and provide value to the user. Features such as the timeline and visual images support this.
+To include features that enhanced the user experience and provide value to the user. Features such as the timeline and visual images support this.
 
 ### Structure
-I wanted to present the user with a landing page that wasn't cluttered and wasn't going to overwhelm them with information. The landing page presents the user with a synopsis of information from which they can navigate to find further information.
+The user is presented with a landing page that is not cluttered and will not overwhelm them with information initially. The landing page presents the user with a synopsis of information from which they can navigate to find further information.
 
 **Website Sections:**
 - **_Home / Landing Page:_** A timeline with a synopsis of the life of Brendan the Navigator.
@@ -73,7 +73,7 @@ I wanted to present the user with a landing page that wasn't cluttered and wasn'
 - **_Footer:_** A footer containing social media links.
 
 ### Skeleton
-The website is desinged with a simple hierarchical structure which the use can navigate through with ease.
+The website is desinged with a simple hierarchical structure which the user can navigate through with ease.
 
 Wireframes were created using Balsamiq software. Frames were drafted for both mobile and larger screens.
 View the wireframe designs here ![Wireframe](docs/wireframes/brendanwireframes.pdf)
@@ -84,12 +84,15 @@ A uniform design has been used throught with consistent colour schemes and font 
 A dark background colour is used to frame the elements presenting the content to the user. It mimics the color of the sea in the background and compliments the images used.
 The background of the content containers is a lighter colour with a contrasting dark font colour making it easy for users to read.
 
-![Colour Palette](docs/images/colourpalette.PNG)
 _Colour Palette_
+
+![Colour Palette](docs/images/colourpalette.PNG)
+
+
 
 ## Technologies
 - HTML - To create the basic site layout, containers and content.
-- CSS - To addd style to the features and content, and to add responsiveness for different device sizes.
+- CSS - To add style to features and content, and to add responsiveness for different device sizes.
 - Balsamiq - Used to create the wireframes.
 
 ## Features 
@@ -100,12 +103,12 @@ The following features are included on the website.
   - The fully responsive navigation bar includes links to the Home page, Voyage and Contact page. 
   - The color scheme used is in keeping with the website and identical on each page to allow for easy navigation.
   - The navigation bar will allow the user to easily move from page to page across all devices without having to use the ‘back’ button.
-  - The hover effect is used to highling menu items, this helps to enhance the user experience.  
+  - The hover effect is used to highlight the links, this helps to enhance the user experience.  
 
 ![Nav Bar](docs/images/navbar.PNG)
 
 - __Home Page__
-  - The landing page includes an image with text overlay to allow the user to see exactly what this site is about. 
+  - The landing page includes an image with text overlay to allow the user to see what this site is about. 
   - This section introduces the user to Brendan the Navigator with an image of his statue which stands at Fenit harbour in Kerry to set the scene.
   - This section includes a responsive timeline of the history of Brendan the Navigator.
 
@@ -128,15 +131,16 @@ The following features are included on the website.
 ![Voyage Page](docs/images/voyage.PNG)
 
 - __Contact Page__
+  - Similar to the home page the contact page uses an image of the statue of Brendan the Navigator, set as the background this image takes up the full length of the page.
   - This page will allow the user to contact the website with any queries or feedback. 
   - The user will be asked to submit their full name and email address.
-  - The user will also have the opportunity to vote on whether the believe Brendan reached America or not.
+  - The user will also have the opportunity to vote on whether they believe Brendan reached America or not.
 
 ![Contact](docs/images/form.PNG)
 
 - __The Footer__ 
   - The footer section includes links to the relevant social media sites for Brendan the Navigator. 
-  - The links will open to a new tab to allow easy navigation for the user. 
+  - The links will open to a new browser tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](docs/images/footer.PNG)
@@ -169,11 +173,12 @@ The following features are included on the website.
 - It was also discovered that the form radio buttons did not behave as expected. 
   This was due to assigning unique names to the buttons, this was resolved by giving them both the same name.
 - Problems were encountered when applying the media query to change the layout of the timeline for larger screens. 
-  The timeline ruler and containers were displaying correctly, but the exisiting circles for some containers were not being re organised so duplicate circles were beig displayed. With some assistance from tutor support a line of code `left;auto` was added to set the items to default.
+  The timeline ruler and containers were displaying correctly, but the exisiting circles for some containers were not being re organised so duplicate circles were being displayed. With some assistance from tutor support a line of code `left;auto` was added to set the items to default.
 
 
 ### Unfixed Bugs
 - When running the voyage.html code through the validator it returns the following warning.
+
   ![HTML Validator Error](docs/images/validatorwarning.PNG)
   No headings are needed in this section so it as been left for now.
  
@@ -206,7 +211,7 @@ The following is a list of resources that were used for this website.
 
 ### Code
  - Instructions used on how to implement a timeline were found on 3Schools https://www.w3schools.com/howto/howto_css_timeline.asp 
-   This particular code creates a split timeline that then reconfigures to become a single sided timeline. The revserse approach was used for this website as it has developed for mobile first using media queries to then split the timeline for larger screens. As such the code from 3Schools was chopped and changed quiet a bit to get the resulting effect.
+   This particular code creates a split timeline that then reconfigures to become a single sided timeline. The reverse approach was used for this website as it has been developed for mobile first with media queries then used to split the timeline for larger screens. As such the code from 3Schools was chopped and changed quiet a bit to get the resulting effect.
 
 ### Acknowledgements
 - Inspiration for some elements came from the Code Institute's Love Running project.
