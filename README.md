@@ -12,8 +12,7 @@ This website aims to bring this figure and his lengendary voyage into the mainst
 
 # Table of Contents
 - [Brendan the Navigator](#brendan-the-navigator)
-   -[Code Institute - First Milestone Project: User Centric Frontend Development.](#code-institute---first-milestone-project-user-centric-frontend-development)
-
+  - [Code Institute - First Milestone Project: User Centric Frontend Development.](#code-institute---first-milestone-project-user-centric-frontend-development)
 - [Table of Contents](#table-of-contents)
   - [Demo](#demo)
     - [A live demo website can be found here](#a-live-demo-of-the-website-can-be-found-here)
@@ -28,11 +27,11 @@ This website aims to bring this figure and his lengendary voyage into the mainst
   - [Features](#features)
     - [Existing Features](#existing-features)
     - [Future Features](#future-features) 
-  -[Testing](#testing)
+  - [Testing](#testing)
     - [Validator Testing](#validator-testing)
     - [Bugs](#bugs-encountered)
-  -[Deployment](#deployment)
-  -[Credits](#credits)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
     - [Content](#content)
     - [media](#media)
     - [Code](#code)
@@ -46,11 +45,10 @@ This website aims to bring this figure and his lengendary voyage into the mainst
 ### A live demo of the website can be found [here](https://lorrainescanlon.github.io/brendan-the-navigator/index.html)
 
 ## UX
-This website is aimed at users who have an interest in learning about history. 
-It aims to appeal to users with an interest in Irish and martitime history.
+This website is aimed at users who have an interest in history. It aims to appeal to users looking to know more about Irish history and martitime exploration.
 
 ## User stories
-- As a user I want to the purpose of the website to be clear and immediate.
+- As a user I want the purpose of the website to be clear and immediate.
 - As a user I don't want to be overwhelmed by a cluttered landing page.
 - As a user I want to easily navigate between the different pages on the site.
 - As a user I want to be presented with the content in a chronolgical form. 
@@ -70,7 +68,7 @@ I wanted to present the user with a landing page that wasn't cluttered and wasn'
 **Website Sections:**
 - **_Home / Landing Page:_** A timeline with a synopsis of the life of Brendan the Navigator.
 - **_Header:_** A header containing links to other parts of the website.
-- **_Voyage Page:_** A more detailed account of Brendan's 7 year voyage.
+- **_Voyage Page:_** A more detailed account of Brendan's seven year voyage.
 - **_Contact Page:_** A page featuring a feedback form and vote section.
 - **_Footer:_** A footer containing social media links.
 
@@ -86,8 +84,8 @@ A uniform design has been used throught with consistent colour schemes and font 
 A dark background colour is used to frame the elements presenting the content to the user. It mimics the color of the sea in the background and compliments the images used.
 The background of the content containers is a lighter colour with a contrasting dark font colour making it easy for users to read.
 
-_Colour Palette_
 ![Colour Palette](docs/images/colourpalette.PNG)
+_Colour Palette_
 
 ## Technologies
 - HTML - To create the basic site layout, containers and content.
@@ -95,7 +93,7 @@ _Colour Palette_
 - Balsamiq - Used to create the wireframes.
 
 ## Features 
-I included the following features on my website.
+The following features are included on the website.
 ### Existing Features
 - __Navigation Bar__
   - Featured on all three pages the navigation bar is fixed to the top of the page.
@@ -103,39 +101,50 @@ I included the following features on my website.
   - The color scheme used is in keeping with the website and identical on each page to allow for easy navigation.
   - The navigation bar will allow the user to easily move from page to page across all devices without having to use the ‘back’ button.
   - The hover effect is used to highling menu items, this helps to enhance the user experience.  
+
 ![Nav Bar](docs/images/navbar.PNG)
+
 - __Home Page__
   - The landing page includes an image with text overlay to allow the user to see exactly what this site is about. 
   - This section introduces the user to Brendan the Navigator with an image of his statue which stands at Fenit harbour in Kerry to set the scene.
   - This section includes a responsive timeline of the history of Brendan the Navigator.
+
 ![Landing Page](docs/images/landingimage.PNG)
+
 - __Timeline__
   - The timeline on the home page presents a short history of Brendan the Navigator displayed in chronological order. 
   - The timeline contains links to the Voyage page where users can read more about Brendan. 
   - It also contains links to external sites with further information that open in a new browser tab.
   - The timeline is responsive and will rearrange content for different device sizes.
+
 ![Timeline](docs/images/timeline.PNG)    
+
 - __The Voyage Page__
   - Similar to the home page, the voyage page icludes a heading image with text overlay to set the scene for the story to follow.
   - The voyage page details Brendan's famous seven year voyage.
   - Pictures are used to support the content and to paint a picture for the user. 
   - Links are provided to external sites where the user can find more information.
+
 ![Voyage Page](docs/images/voyage.PNG)
+
 - __Contact Page__
   - This page will allow the user to contact the website with any queries or feedback. 
   - The user will be asked to submit their full name and email address.
   - The user will also have the opportunity to vote on whether the believe Brendan reached America or not.
+
 ![Contact](docs/images/form.PNG)
+
 - __The Footer__ 
   - The footer section includes links to the relevant social media sites for Brendan the Navigator. 
   - The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
+
 ![Footer](docs/images/footer.PNG)
 
 ### Future Features
-- As a future add on, a feature that would display the results of the vote button. Shown as a graphic to illustrate what percentage of users 
-  believe Brendan reached America versus the percentage that believe he didn't.
-- An interactive map of Brendans seven year voyage would be a great feature to support the existing content.
+- As a future add on, a feature that would display the results of the vote button. Shown as a graphic to illustrate the percentage of users 
+  that believe Brendan reached America versus the percentage that believe he didn't.
+- An interactive map of Brendan's seven year voyage would be a great feature to support the existing content.
 - I believe on very large devices a horizontal implementation of the timeline could make better use of screen space.
 
 ## Testing
@@ -143,8 +152,8 @@ I included the following features on my website.
 - This page has been tested on laptop and mobile devices.
 - Responsiveness and functionality have been tested on all screen sizes using the dev tools device toolbar.
 - All links internal and external have been tested and are working.
-- I have successfully tested the contact form validation for text and email input fields. 
-- The submit button also posts the data to the code institute server. 
+- Form validation for text and email input fields has been tested successfully. 
+- The submit button posts the data to the code institute server successfully. 
 - All pages passed lighthouse testing for performance, accessibility, best practices and search engine optimization. 
 
 ### Validator Testing 
@@ -155,18 +164,18 @@ I included the following features on my website.
   - No errors were found when passing through the official [Jigsaw validator](docs/images/cssvalidated.PNG)
 
 ## Bugs Encountered
-- When I first deployed the website to GitHub, I discovered that the social media links did not work. 
+- When first deployed to GitHub, it was discovered that the social media links did not work. 
   This was due to not enclosing the icons within the anchor closing tag.
-- I also discovered that the form radio buttons did not behave as expected. 
+- It was also discovered that the form radio buttons did not behave as expected. 
   This was due to assigning unique names to the buttons, this was resolved by giving them both the same name.
-- I encountered problems when applying the media query to change the layout of the timeline for larger screens. 
-  The timeline ruler and containers were displaying correctly, the problem was that the exisiting circles for some containers were not being re organised so I had duplicate circles. With some assistance from tutor support I added a line of code left;auto to set the items to default.
+- Problems were encountered when applying the media query to change the layout of the timeline for larger screens. 
+  The timeline ruler and containers were displaying correctly, but the exisiting circles for some containers were not being re organised so duplicate circles were beig displayed. With some assistance from tutor support a line of code `left;auto` was added to set the items to default.
 
 
 ### Unfixed Bugs
 - When running the voyage.html code through the validator it returns the following warning.
   ![HTML Validator Error](docs/images/validatorwarning.PNG)
-  No headings are needed in this section so I have left it for now.
+  No headings are needed in this section so it as been left for now.
  
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
@@ -178,12 +187,12 @@ I included the following features on my website.
   - The live link can be found here - https://lorrainescanlon.github.io/brendan-the-navigator/
 
 ## Credits 
-The following is a list of resources I used for this website.
+The following is a list of resources that were used for this website.
 
 ### Content 
-- I used Wikipedia https://en.wikipedia.org/wiki/Brendan_the_Navigator as a content source.
-- I used Dingle-Peninsula https://dingle-peninsula.ie/stories-2/49-blog-from-the-dingle-peninsula/251-st-brendan-the-navigator-s-departure-from-brandon-creek.html as a content source.
-- I used Irish Culture and Customs https://www.irishcultureandcustoms.com/ASaints/BrendanNav.html as a content source.
+- Wikipedia https://en.wikipedia.org/wiki/Brendan_the_Navigator was used as a content source.
+- Dingle-Peninsula https://dingle-peninsula.ie/stories-2/49-blog-from-the-dingle-peninsula/251-st-brendan-the-navigator-s-departure-from-brandon-creek.html was used as a content source.
+- Irish Culture and Customs https://www.irishcultureandcustoms.com/ASaints/BrendanNav.html was used as a content source.
 
 ### Media
 - The Statue and Brandon Creek images are my own.
@@ -196,8 +205,8 @@ The following is a list of resources I used for this website.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Code
- - I researched how to implement the timeline on W3Schools. I used the instructions at the following link as a basis for this feature https://www.w3schools.com/howto/howto_css_timeline.asp 
-   This code creates a split timeline that then reconfigures to become a single sided timeline. I was using the revserse approach as I developed the mobile site first and then added media queries to split the timeline for larger screens so I chopped and changed the code quiet a bit to get the effect I was looking for.
+ - Instructions used on how to implement a timeline were found on 3Schools https://www.w3schools.com/howto/howto_css_timeline.asp 
+   This particular code creates a split timeline that then reconfigures to become a single sided timeline. The revserse approach was used for this website as it has developed for mobile first using media queries to then split the timeline for larger screens. As such the code from 3Schools was chopped and changed quiet a bit to get the resulting effect.
 
 ### Acknowledgements
 - Inspiration for some elements came from the Code Institute's Love Running project.
