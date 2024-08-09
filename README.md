@@ -56,7 +56,7 @@ I included the following features on my website.
 - When I first deployed the website to GitHub, I discovered that the social media links did not work. 
   This was due to not enclosing the icons within the anchor opening and closing tags.
 - I also discovered that the form radio buttons did not behave as expected. 
-  This was due to me assigning unique ids to the buttons, this was resolved by giving them both the same id.
+  This was due to assigning unique names to the buttons, this was resolved by giving them both the same name.
 - I encountered problems when applying the media query to change the layout of the timeline for larger screens. 
   The timeline ruler and containers were displaying correctly, the problem was that the exisiting circles for some containers were not being re organised so I had duplicate circles. With some assistance from tutor support I added a line of code left;auto to set the items to default.
 

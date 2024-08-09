@@ -32,11 +32,12 @@
 
     <!--Main Content-->
     <main>
+        
+        <!--Contact Section-->
         <section id="contact" aria-label="Background image of Brendan the Navigator statue">
-            <!--<div id="feedback" aria-label="Feedback Form"> -->
                 
                 <!--Form-->
-                <form id="contact-form" method="post" action="https://formdump.codeinstitute.net">
+                <form id="contact-form" method="post" action="https://formdump.codeinstitute.net" aria-label="Contact form with feedback">
                     <h2>Have a Query Get in Touch</h2><br>
                     <label for="first-name">First Name</label>
                     <input id="first-name" type="text" name="first_name" class="text-input" required>
@@ -51,23 +52,22 @@
                     <textarea id="query" name="comment" rows="6" cols="25" placeholder="Your Query Here" maxlength="250"></textarea>
                     <br>
                     <h3>Just for Fun!</h3>
-                        <div id="vote-radio">
-                            <p>Do you think Brendan reached America?</p>
-                            <div id="radio-buttons">
-                                <div>
-                                    <input type="radio" id="vote-yes" name="vote" value="Likely" checked>
-                                    <label for="vote-yes">Likely</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="vote-no" name="vote" value="Unlikely">
-                                    <label for="vote-no">Unlikely</label>
-                                </div>
-                            </div>
+                    <fieldset id="vote-radio">
+                        <legend>Did Brendan reach America?</legend>
+                        <div>
+                            <input type="radio" id="vote-yes" name="vote" value="Likely" checked>
+                            <label for="vote-yes">Likely</label>                         
                         </div>
+                        <div>
+                            <input type="radio" id="vote-no" name="vote" value="Unlikely">
+                            <label for="vote-no">Unlikely</label>
+                        </div>                 
+                    </fieldset>
                     <input type="submit" id="submit-query" value="Submit">
                 </form>
-            <!-- </div> -->
+
         </section>
+
     </main>
 
     <!--Footer-->

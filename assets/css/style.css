@@ -230,6 +230,7 @@ main {
     margin: 10px;
     background-color: #dee2e3;
     padding: 15px;
+    color:#474747;
     border: 1px solid #474747;
     border-radius: 5px;
 }
@@ -295,21 +296,15 @@ main {
     padding: 0 5px;
 }
 
-/* Vote box styles */
+/* Fieldset radio buttons style*/
 #vote-radio {
-    border: 1px solid #474747;
-    border-style: groove;
-    border-radius: 5px;
-    text-align: center;
-    padding: 5px;
-}
-
-/* Radio buttons style */
-#radio-buttons {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border: 1px solid #474747;
+    border-radius: 5px;
+    padding: 10px;
+
 }
 
 /* Submit button styles */
