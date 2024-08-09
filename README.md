@@ -9,7 +9,7 @@ This website aims to bring this figure and his lengendary voyage into the mainst
 I included the following features on my website.
 ### Existing Features
 - __Navigation Bar__
-  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Voyage and Contact page. It is identical on each page to allow for easy navigation.
+  - Featured on all three pages, the fully responsive navigation bar includes links to the Home page, Voyage and Contact page. It is identical on each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 ![Nav Bar](docs/images/navbar.PNG)
 - __The landing page image__
@@ -40,12 +40,12 @@ I included the following features on my website.
 ![Footer](docs/images/footer.PNG)
 
 ### Features Left to Implement
-- As a future add on, a feature that would display the results on the vote button. Shown as a graphic to illustrate what percentage of users believe Brendan reached    
-  America versus the percentage that believe he didn't.
+- As a future add on, a feature that would display the results on the vote button. Shown as a graphic to illustrate what percentage of users 
+  believe Brendan reached America versus the percentage that believe he didn't.
 - An interactive map of Brendans 7 year voyage would be a great feature to support the existing content.
 - I think on very large devices a horizontal implementation of the timeline could make better use of screen space.
 ## Testing
-- This page has been tested on different browsers such as Chrome, Firefox and Microsoft Egde.
+- This page has been tested on different browsers such as Chrome, Firefox and Microsoft Edge.
 - Responsiveness and functionality have been tested on all screen sizes using the dev tools device toolbar.
 - All links internal and external have been tested and are working.
 - I have tested the contact form validation for text and email input fields. 
