@@ -343,6 +343,8 @@ main {
     /* History content */
     .history-box {
         margin: 15px 30px 15px 15px;
+        /* Make timeline boxes same height */
+        min-height: 148px;
     }
 
     /* Voyage image style cover*/
@@ -415,6 +417,11 @@ main {
         left: auto;
     }
 
+   /* Make timeline boxes the same height */
+    .history-box {
+        min-height: 205px;
+    }
+
     /* Rearrange margins for content boxes on left */
     #early.history-box {
         margin: 15px 15px 15px 30px;
@@ -473,6 +480,11 @@ main {
         font-size: 180%;
     }
 
+    /* Make timeline boxes the same size */
+    .history-box {
+        min-height: 242px;
+    }
+    
     /* Increase height of voyage page main image */
     #voyage-image {
         height: 200px;
