@@ -345,8 +345,9 @@ main {
     /* Voyage image style cover*/
     #voyage-image {
         background: url(../images/sea.jpg) no-repeat center center/cover;
+        height: 175px;
     }
-
+        
     /*Rearrange voyage content*/
     .voyage-split {
         display:flex;
@@ -383,6 +384,10 @@ main {
 
 /*Media Query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
+    /* Make home page image larger */
+    #cover-image {
+        height: 330px;
+    }
 
     /* Move timeline bar to center of page */
     #timeline::after {
@@ -426,10 +431,10 @@ main {
     #recreation.history-box {
         margin: 15px 15px 15px 30px;
     }
-
+        
     /* Increase height of voyage page main image */
     #voyage-image {
-        height: 175px;
+        height: 200px;
     }
 
     /* Increase margins and padding for voyage content */
@@ -478,11 +483,6 @@ main {
     /* Make timeline boxes the same size */
     .history-box {
         min-height: 242px;
-    }
-    
-    /* Increase height of voyage page main image */
-    #voyage-image {
-        height: 200px;
     }
 
     /* Rearrange space around voyage content */

@@ -201,12 +201,11 @@ The following is a list of resources that were used for this website.
 - Irish Culture and Customs https://www.irishcultureandcustoms.com/ASaints/BrendanNav.html was used as a content source.
 
 ### Media
-- The Statue and Brandon Creek images are my own.
+- The Statue, Brandon Creek and monument images are my own.
 - The Sea image used is from Unsplash by Ulrike Donohue.
 - The Puffin image used is from Pixabay by Frank Liebmann.
 - The Volcano image used is from Pixabay by Julius H.
 - The Iceberg image used is from Pixabay by Lurens.
-- The Ship image used is from Pixabay by the user dp1616.
 - The compass favicon was taken from [Favicon] https://favicon.io/.com
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
