@@ -51,7 +51,7 @@ This website is aimed at users who have an interest in history. It aims to appea
 - As a user I want the purpose of the website to be clear and immediate.
 - As a user I don't want to be overwhelmed by a cluttered landing page.
 - As a user I want to easily navigate between the different pages on the site.
-- As a user I want to be presented with the content in chronolgical form. 
+- As a user I want to be presented with the content in chronological form. 
 - As a user I want visuals to bring the content to life.
 - As a user I want to decide if I would like to learn more about this historical figure.
 - As a user I would like the opportunity to contact the page or provide feedback.
@@ -89,9 +89,10 @@ _Colour Palette_
 ![Colour Palette](docs/images/colourpalette.PNG)
 
 
+Fonts used are Lato and Fairplay Display.
 
 ## Technologies
-- HTML - To create the basic site layout, containers and content.
+- HTML - To create the basic site layout and content.
 - CSS - To add style to features and content, and to add responsiveness for different device sizes.
 - Balsamiq - Used to create the wireframes.
 
