@@ -17,8 +17,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
-
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=AVDS9p5G2jQmIK6vuOeSpDSujcRoTK2pqXlVJYHytlBEaAE43iFW1BD2wtGNkdV4dIIPoYgHECHEPtccliZf9fiZY4iFRuI9PipqTXKGoWevcGAM0XU8u9Djyn5u_t_F" charset="UTF-8"></script></head>
+</head>
 
 <body>
     <!--Header-->
@@ -54,7 +53,11 @@
                         </p><br>
                     </div>
                     <div id="brandon-creek-image"  class= "center-image">
-                        <img src="assets/images/brandonresized.jpg" alt="Image of Brandon Creek">
+                        <picture>
+                            <source srcset="assets/images/brandonmob.jpg" media="(max-width: 991px)">
+                            <source srcset="assets/images/brandonresized" media="(max-width: 1500px)">
+                            <img src="assets/images/brandonresized.jpg" alt="Image of Brandon Creek">
+                        </picture>
                     </div>
                 </div>
 
