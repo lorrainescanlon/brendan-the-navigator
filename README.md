@@ -199,6 +199,7 @@ The following is a list of resources that were used for this website.
 - Wikipedia https://en.wikipedia.org/wiki/Brendan_the_Navigator was used as a content source.
 - Dingle-Peninsula https://dingle-peninsula.ie/stories-2/49-blog-from-the-dingle-peninsula/251-st-brendan-the-navigator-s-departure-from-brandon-creek.html was used as a content source.
 - Irish Culture and Customs https://www.irishcultureandcustoms.com/ASaints/BrendanNav.html was used as a content source.
+- Archaeology Magazine https://archaeology.org/issues/march-april-2023/letters-from/faroe-islands-settlement/ was used as a source.
 
 ### Media
 - The Statue, Brandon Creek and Monument images are my own.
