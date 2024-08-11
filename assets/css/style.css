@@ -345,7 +345,6 @@ main {
     /* Voyage image style cover*/
     #voyage-image {
         background: url(../images/sea.jpg) no-repeat center center/cover;
-        height: 175px;
     }
         
     /*Rearrange voyage content*/
